@@ -1,0 +1,43 @@
+/* Front Page ____________________ */
+
+.consignment_portal {
+  @include border-radius(2px);
+  position: relative;
+}
+
+.consignment_portal .consignment_links {
+  padding-left: 5%;
+  padding-top: 5%;
+  position: absolute;
+  top: 0;
+}
+
+.consignment_portal h1 {
+  color: #999;
+}
+
+.consignment_portal h1, 
+.consignment_portal h2 {
+  margin-bottom: 2rem;
+  text-shadow: .1rem .1rem .2rem #333;
+}
+
+.consignment_portal h2 {
+  font-size: 2.25rem;
+  position: relative;
+  top: 0;
+}
+
+.consignment_portal h2 a {
+  color: #fff;
+}
+
+.consignment_portal h2 a:hover {
+  color: #f78f1e;
+}
+
+.front_page_slider .soliloquy-container .soliloquy-caption .soliloquy-caption-inside {
+  text-align: left;
+}
+
+

@@ -1,0 +1,40 @@
+/* Footer ____________________ */
+
+.footer {
+  display: inline-block;
+  margin-top: 2rem;
+  li {
+    padding-left: .5rem;
+  }
+  h3 {
+    background: #eaeaea;
+    color: #444;
+    margin-bottom: 1rem;
+    padding: 1.5%;
+    text-align: left;
+  }
+  p {
+    margin-top: 1rem;
+  }
+  .bike_brands, .social_media {
+    text-align: center;
+  }
+  .social_media li {
+    padding: 0 .5rem;
+  }
+  .bike_brands li, .social_media li {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .footer_sellwood_logo {
+    margin-top: 2rem;
+    text-align: center;
+    img {
+      display: block;
+      margin: 0 auto;
+      width: 125px;
+    }
+  }
+}
+
+

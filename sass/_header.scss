@@ -1,0 +1,105 @@
+/* Header and Location ____________________ */
+
+.alert_header {
+  background: #f70;
+  @include border-corner-radius(bottom, left, 2px);
+  @include border-corner-radius(bottom, right, 2px);
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  text-align: center;
+  a {
+    color: #fff;
+    text-decoration: underline;
+  }
+}
+
+.header {
+  background: #0457a5;
+  @include border-radius(2px);
+  .location {
+    background: #0457a5;
+    @include border-radius(2px);
+    color: #c5e3ff;
+    padding-bottom: .75rem;
+    text-align: center;
+  }
+  li {
+    display: inline-block;
+    margin: 0 2%;
+  }
+  a {
+    color: #c5e3ff;
+  }
+  a:hover {
+    color: #f7af1e;
+  }
+  .site_updated {
+    font-size: .975rem;
+  }
+}
+
+
+/* Navigation and Site Updated ____________________ */
+
+.nav {
+  margin-bottom: 1rem;
+  text-align: left;
+  ul {
+    margin: 1rem 0;
+    position: relative;
+  }
+  li {
+    font-size: 1.8rem;
+    display: inline-block;
+    padding: .5rem 1.5rem 0 0;
+  }
+  li a:hover {
+    color: #f7af1e;
+  }
+  ul li:hover ul {
+    display: block;
+  }
+  ul ul {
+    background: #fafafa;
+    display: none;
+    position: absolute;
+    top: 1.5rem;
+    width: auto;
+    z-index: 9;
+    li {
+      display: block;
+      font-size: 1.6rem;
+      padding-left: 1rem;
+    }
+  }
+}
+
+.advanced_search {
+  form {
+    margin-top: 1rem;
+  }
+  .advanced_search_inputs {
+    float: right;
+  }
+  label {
+    font-size: .85rem;
+  }
+  input[type="text"] {
+    display: inline-block;
+    margin-bottom: .5rem;
+  }
+  input[type="submit"] {
+    margin-bottom: .25rem;
+    padding: .5rem;
+  }
+  li, li label {
+    display: inline-block;
+  }
+  .accordion {
+    text-align: right;
+  }
+}
+
+

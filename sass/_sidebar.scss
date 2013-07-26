@@ -1,0 +1,67 @@
+/* Sidebar ____________________ */
+
+.sidebar {
+  background: #eaeaea;
+  @include border-radius(2px);
+  padding: 1rem 0;
+  input[type="search"] {
+    width: 100%;
+  }
+  .widget {
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+  }
+  .widget_recent_entries li {
+    border-bottom: 1px dashed #dadada;
+    padding-bottom: .25rem;
+  }
+  #wp-calendar {
+    margin: 0;
+    width: 100%;
+    th, td, caption {
+      text-align: center;
+    }
+    th {
+      border-bottom: 1px solid #dadada;
+      font-weight: bold;
+      padding-bottom: .25rem;
+    }
+    td {
+      padding-bottom: .15rem;
+    }
+    caption {
+      background: #dadada;
+      color: #444;
+      padding: .25rem .5rem;
+    }
+    tfoot {
+      padding-top: .25rem;
+    }
+    #prev {
+      text-align: left;
+    }
+    #next {
+      text-align: right;
+    }
+  }
+  .advanced_search_inputs {
+    input[type="text"] {
+      float: left;
+      margin: 0 .5rem .5rem 0;
+      width: 66%;
+    }
+    input[type="submit"] {
+      float: left;
+      margin-bottom: 0;
+      padding: .5rem 1rem;
+      width: 30%;
+    }
+  }
+  .accordion {
+    li, li label {
+      display: inline-block;
+      font-weight: normal;
+    }
+  }
+}
+

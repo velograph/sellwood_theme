@@ -1,0 +1,36 @@
+/* For Sale Parent Page ____________________ */
+
+.recent_listings_header {
+  background: $light_blue;
+  @include border-radius(2px);
+  margin: 1rem 0;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.post_portal {
+  border-bottom: 1px dashed #dadada;
+  color: #08c;
+  overflow: hidden;
+  padding-bottom: 1rem;
+  text-overflow: ellipsis;
+  white-space: hidden;
+  width: 300px;
+  a {
+    white-space: pre;
+  }
+  img {
+    margin: 1rem 0 .5rem 0;
+  }
+}
+
+.for_sale_portal {
+  text-align: center;
+  em {
+    display: block;
+    margin-bottom: .5rem;
+  }
+}
+
+
+

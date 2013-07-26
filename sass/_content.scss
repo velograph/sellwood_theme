@@ -1,0 +1,129 @@
+/* Content Utility ____________________ */
+
+.content_utility {
+  border-bottom: 1px solid $link_blue;
+  display: inline-block;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: .5rem;
+  width: 100%;
+  .next_post_link {
+    float: right;
+  }
+}
+
+
+
+/* Content Sections ____________________ */
+
+.content .post {
+  display: block;
+  float: left;
+  margin-bottom: 2rem;
+  max-width: 700px;
+  h1 {
+    margin-bottom: .5rem;
+  }
+  img {
+    height: auto;
+    max-width: 100%;
+  }
+  img.alignleft {
+    float: left;
+    padding: 0 2% 2% 0;
+    padding-right: 2%;
+  }
+  .post_meta {
+    margin-bottom: 1rem;
+  }
+  ul li {
+    margin-left: 1rem;
+  }
+  table {
+    width: 100%;
+  }
+  .more-link {
+    display: block;
+  }
+}
+
+.product_details {
+  h3 {
+    border-bottom: 1px solid #eaeaea;
+  }
+  span {
+    display: block;
+    line-height: 1.75rem;
+    margin-bottom: 1rem;
+  }
+  .availability_tooltip {
+    display: inline;
+    text-decoration: underline;
+  }
+}
+
+
+/* Tables ____________________ */
+
+.size_matrix_table {
+  margin-bottom: 1rem;
+  th {
+    background: #08c;
+    color: #fff;
+  }
+  td, th {
+    border: 1px solid #dadada;
+    padding: .5rem;
+    text-align: center;
+    vertical-align: middle;
+  }
+}
+
+
+/* jQuery stuff ____________________ */
+
+.ui-widget-overlay.ui-front {
+  background: #000;
+  opacity: .75;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+  background: #f70;
+  border: none;
+  color: #fff;
+  font-weight: normal;
+}
+
+.ui-dialog-titlebar .ui-button {
+  border: none !important;
+}
+
+.ui-button-icon-only .ui-icon {
+  left: 0% !important;
+  top: 0% !important;
+}
+
+.ui-dialog .ui-dialog-content {
+  background: #f5f5f5;
+  font-size: .875rem;
+}
+
+.ui-dialog-content p {
+  margin-bottom: 1rem;
+}
+
+.ui-dialog-content table {
+  width: 100%;
+}
+
+.pagination {
+  margin: .5em 0 1rem;
+  text-align: center;
+}
+
+.pagination a,
+.pagination span {
+  margin: 0 .25rem;
+}
+
+
